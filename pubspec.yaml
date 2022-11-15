@@ -1,0 +1,15 @@
+name: stomp_sharedride_client
+description: Simulateur d'un utilisateur de shared ride.
+version: 0.0.1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.16.0
+dependencies:
+  args: ^2.3.1
+  gpx: ^2.2.0
+  http: ^0.13.5
+  stomp_dart_client: ^0.4.4
